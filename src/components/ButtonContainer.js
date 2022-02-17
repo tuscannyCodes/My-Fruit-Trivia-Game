@@ -4,7 +4,6 @@ import "./ButtonContainer.css";
 import PracticeButton from "./PracticeButton.js";
 import TriviaGameButton from "./TriviaGameButton.js";
 
-
 function ButtonContainer() {
   return (
     <div id="ButtonContainer">

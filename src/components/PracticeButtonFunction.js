@@ -2,7 +2,6 @@
 //This component is the logic and functionality behind the 'Practice' button.
 //If given more time, I would switch out the alert and prompt boxes for a styled card component that would compliment the design of the application.
 
-
 const PracticeButtonFunction = () => {
   while (true) {
     let text = prompt(`Enter a fruit to get a fruit fact!`);
@@ -108,6 +107,6 @@ const PracticeButtonFunction = () => {
         break;
     }
   }
-}
+};
 
 export default PracticeButtonFunction;

@@ -1,4 +1,4 @@
-// Play button component importing the 'TriviaGameButtonFunction' for functionality utilzed with onClick. 
+// Play button component importing the 'TriviaGameButtonFunction' for functionality utilzed with onClick.
 
 import TriviaGameButtonFunction from "./TriviaGameButtonFunction.js";
 
