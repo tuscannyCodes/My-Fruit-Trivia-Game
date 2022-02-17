@@ -1,0 +1,11 @@
+#fruitImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 5em;
+}
+/* Image will be resized to fit and better optimize the page. This will resize the image for now.*/
+#fruitImage {
+  width: 10em;
+}
