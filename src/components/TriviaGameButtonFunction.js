@@ -1,9 +1,11 @@
 // In order to keep the main components simple, Ive decided to keep the button logic inside seperate components.
 //This component is the logic and functionality behind the 'Play' button.
+//If given more time, I would switch out the alert and prompt boxes for a styled card component that would compliment the design of the application.
+// Additionally, for this component, I would also like to display the 'tries' variable graphically in the DOM so that the user could keep track of their score as they are playing, instad of being given their score at the end of the game.
 
 let fruitGuess;
 
-//We array will store all possible fruit and randomly select one array position based on Math.random() buit in function. 
+//We array will store all possible fruit and randomly select one array position based on Math.random() buit in function.
 let fruitArray = [
   "banana",
   "apple",
@@ -21,18 +23,14 @@ let randomNum = Math.floor(Math.random() * fruitArray.length);
 
 let randomFruit = fruitArray[randomNum];
 
-let tries = 0;
+let tries = 0; // This will keep track of the number of atttempts.And will be incremented each time the user guesses wrong.
 
 let hint;
 
-//reload the page once game is won! 
+//reload the page once game is won!
 const newRandomFruit = () => window.location.reload();
 
-
-
-
-
- //Here is the answer displayed in the console. 
+//Here is the answer displayed in the console.
 console.log(`Shhh, dont tell anyone the answer is "${randomFruit}"`);
 
 //This is the main fucntion of the game using the switch statement.
@@ -163,16 +161,14 @@ const TriviaGameButtonFunction = () => {
 
     ////Hint feature: WORKING!--------------------------------------
     else if (fruitGuess == randomFruit) {
-      
       alert(
         "You're amazing! " +
           "It only took you " +
           tries +
           " tries! Lets play again with another fun fruit!"
-          );
-          newRandomFruit();//reload the page once game is won! 
- 
-          
+      );
+      newRandomFruit(); //reload the page once game is won!
+
       console.log(randomFruit);
       break;
     }

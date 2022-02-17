@@ -1,5 +1,6 @@
 // In order to keep the main components simple, Ive decided to keep the button logic inside seperate components.
 //This component is the logic and functionality behind the 'Practice' button.
+//If given more time, I would switch out the alert and prompt boxes for a styled card component that would compliment the design of the application.
 
 
 const PracticeButtonFunction = () => {

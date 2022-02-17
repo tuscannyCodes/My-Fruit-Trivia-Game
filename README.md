@@ -1,4 +1,6 @@
-## Welcome to my Fruits Trivia Game App! This was a really fun project to build and I had a lot of fun working on it. I wanted to make the UI as simple but effective as possible.
+## Welcome to my Fruits Trivia Game App! This was a really fun project to build, and it was a great time working on it. I wanted to make the UI as simple and effective as possible. I spent 8 hours in total building this app. The main bulk of my time was spent building the function components and testing them for bugs and fixing problems (practiceButtonFunction, TriviaGameButtonsFunction). If I were to furthur build out this application, I would spend time working on removing the alert and prompt boxes, and replace them with custom components that complemented the style of the application. This application has a buit in score tracker, that keeps track of how many tries it takes for the user to get the correct answer. Given more time, I would also like to represent that score tracker as a visual element on the page. I would do this by using state to pull information from the TriviaGameButtonsFunction. It was very important to me to seperate the components as much a possible in order to keep the project lean, and easy to read and navigate.
+
+##
 
 # Getting Started with Create React App
 
