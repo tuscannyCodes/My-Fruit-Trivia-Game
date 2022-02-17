@@ -1,0 +1,18 @@
+/* This is the styling for the MainHeader component */
+
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+
+#mainHeaderContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 13em;
+}
+
+#heading {
+  cursor: default;
+  font-size: 4em;
+  font-family: "Titan One", cursive;
+  color: rgb(252, 121, 170);
+}

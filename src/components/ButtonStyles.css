@@ -1,0 +1,24 @@
+/* Styling for both buttons */
+
+#mainButtonStyle {
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: rgb(252, 121, 170);
+  border-style: none;
+  color: white;
+  margin: 10px;
+  transition: background-color 0.4s;
+  transition: transform 0.4s ease;
+}
+
+#mainButtonStyle:hover {
+  cursor: pointer;
+  background-color: rgb(128, 184, 127);
+  transform: scale(1.1);
+}
+
+#mainButtonStyle:active {
+  background-color: rgb(218, 140, 245);
+  transition-duration: 0s;
+}

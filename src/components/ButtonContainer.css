@@ -1,0 +1,8 @@
+/* This is the main flex container styling for both buttons. This insures that they are both centered together. */
+
+#ButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
