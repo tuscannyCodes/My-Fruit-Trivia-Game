@@ -1,4 +1,4 @@
-## Welcome to my Fruits Trivia Game App! This was a really fun project to build and I had a lot of fun working on it. I wanted to make the UI as simple as possible.
+## Welcome to my Fruits Trivia Game App! This was a really fun project to build and I had a lot of fun working on it. I wanted to make the UI as simple but effective as possible.
 
 # Getting Started with Create React App
 
